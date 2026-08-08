@@ -1,0 +1,29 @@
+# Keil 和嵌入式编译输出
+keil/Objects/
+*.o
+*.d
+*.axf
+*.hex
+*.map
+*.lst
+*.lnp
+*.dep
+
+# 用户本地 Keil 状态
+*.uvoptx
+*.uvguix.*
+
+# Python 缓存和本地工具输出
+__pycache__/
+*.pyc
+*.pyo
+
+# 临时目录、日志和备份
+tmp/
+work/
+*.log
+*.bak
+*.gbk-backup
+
+# K230 推理结果和本地抓图
+视觉/钢球识别/det_results/
